@@ -19,6 +19,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        if (request()->header('x-forwarded-proto') === 'https' || app()->environment('production') || str_contains(request()->header('host', ''), 'onrender.com')) {
+            \Illuminate\Support\Facades\URL::forceScheme('https');
+        }
     }
 }

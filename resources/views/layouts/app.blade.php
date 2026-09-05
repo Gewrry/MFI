@@ -24,12 +24,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    {{-- Vite Assets --}}
+    {{-- Styles & Scripts --}}
+    <link rel="stylesheet" href="/build/assets/app-Bk0LSVox.css">
+    <script defer src="/build/assets/app-CmMqXTPr.js"></script>
     @if(file_exists(public_path('build/manifest.json')))
         @vite(['resources/css/app.css', 'resources/js/app.js'])
-    @else
-        <link rel="stylesheet" href="{{ asset('build/assets/app-Bk0LSVox.css') }}">
-        <script defer src="{{ asset('build/assets/app-CmMqXTPr.js') }}"></script>
     @endif
 
     {{-- Favicon --}}
