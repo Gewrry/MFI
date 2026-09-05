@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#60A5FA" />
+            <stop offset="35%" stop-color="#3B82F6" />
+            <stop offset="70%" stop-color="#1D4ED8" />
+            <stop offset="100%" stop-color="#1E3A8A" />
+        </linearGradient>
+        <linearGradient id="upvcGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#60A5FA" />
+            <stop offset="30%" stop-color="#2563EB" />
+            <stop offset="70%" stop-color="#1D4ED8" />
+            <stop offset="100%" stop-color="#1E3A8A" />
+        </linearGradient>
+        <linearGradient id="steelGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#F1F5F9" />
+            <stop offset="50%" stop-color="#94A3B8" />
+            <stop offset="100%" stop-color="#475569" />
+        </linearGradient>
+        <linearGradient id="brassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#FDE047" />
+            <stop offset="50%" stop-color="#D97706" />
+            <stop offset="100%" stop-color="#78350F" />
+        </linearGradient>
+        <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.15"/>
+        </filter>
+    </defs>
+    <rect width="500" height="500" rx="20" fill="#F8FAFC"/>
+    <g filter="url(#dropShadow)">
+        
+        <!-- Flange Left -->
+        <rect x="80" y="210" width="35" height="230" rx="6" fill="url(#blueGrad)" stroke="#1E3A8A" stroke-width="3"/>
+        <!-- Flange Right -->
+        <rect x="385" y="210" width="35" height="230" rx="6" fill="url(#blueGrad)" stroke="#1E3A8A" stroke-width="3"/>
+        <circle cx="97" cy="235" r="7" fill="#0F172A"/><circle cx="97" cy="325" r="7" fill="#0F172A"/><circle cx="97" cy="415" r="7" fill="#0F172A"/>
+        <circle cx="403" cy="235" r="7" fill="#0F172A"/><circle cx="403" cy="325" r="7" fill="#0F172A"/><circle cx="403" cy="415" r="7" fill="#0F172A"/>
+        <!-- Valve Body -->
+        <rect x="115" y="235" width="270" height="180" rx="14" fill="url(#blueGrad)" stroke="#1E3A8A" stroke-width="4"/>
+        <!-- Bonnet -->
+        <polygon points="170,235 330,235 300,150 200,150" fill="url(#blueGrad)" stroke="#1E3A8A" stroke-width="3"/>
+        <!-- Square Cap Nut Top -->
+        <rect x="225" y="70" width="50" height="50" rx="4" fill="url(#steelGrad)" stroke="#475569" stroke-width="3"/>
+        <rect x="235" y="120" width="30" height="30" fill="url(#steelGrad)"/>
+    
+    </g>
+    <text x="250" y="465" text-anchor="middle" fill="#475569" font-family="sans-serif" font-weight="bold" font-size="13" letter-spacing="1">FLANGED GATE VALVE AWWA C-509</text>
+</svg>

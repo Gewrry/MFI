@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#60A5FA" />
+            <stop offset="35%" stop-color="#3B82F6" />
+            <stop offset="70%" stop-color="#1D4ED8" />
+            <stop offset="100%" stop-color="#1E3A8A" />
+        </linearGradient>
+        <linearGradient id="upvcGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#60A5FA" />
+            <stop offset="30%" stop-color="#2563EB" />
+            <stop offset="70%" stop-color="#1D4ED8" />
+            <stop offset="100%" stop-color="#1E3A8A" />
+        </linearGradient>
+        <linearGradient id="steelGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#F1F5F9" />
+            <stop offset="50%" stop-color="#94A3B8" />
+            <stop offset="100%" stop-color="#475569" />
+        </linearGradient>
+        <linearGradient id="brassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#FDE047" />
+            <stop offset="50%" stop-color="#D97706" />
+            <stop offset="100%" stop-color="#78350F" />
+        </linearGradient>
+        <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.15"/>
+        </filter>
+    </defs>
+    <rect width="500" height="500" rx="20" fill="#F8FAFC"/>
+    <g filter="url(#dropShadow)">
+        
+        <g stroke="#1E3A8A" stroke-width="3">
+            <rect x="60" y="110" width="380" height="75" rx="37" fill="url(#upvcGrad)"/>
+            <ellipse cx="400" cy="147" rx="22" ry="36" fill="#1E3A8A" stroke="#60A5FA" stroke-width="3"/>
+            <text x="120" y="152" fill="#FFFFFF" font-family="sans-serif" font-weight="bold" font-size="14" letter-spacing="2">BLUE STAR uPVC PRESSURE PIPE PNS 65</text>
+
+            <rect x="60" y="210" width="380" height="75" rx="37" fill="url(#upvcGrad)"/>
+            <ellipse cx="400" cy="247" rx="22" ry="36" fill="#1E3A8A" stroke="#60A5FA" stroke-width="3"/>
+            <text x="120" y="252" fill="#FFFFFF" font-family="sans-serif" font-weight="bold" font-size="14" letter-spacing="2">BLUE STAR uPVC PRESSURE PIPE PNS 65</text>
+
+            <rect x="60" y="310" width="380" height="75" rx="37" fill="url(#upvcGrad)"/>
+            <ellipse cx="400" cy="347" rx="22" ry="36" fill="#1E3A8A" stroke="#60A5FA" stroke-width="3"/>
+            <text x="120" y="352" fill="#FFFFFF" font-family="sans-serif" font-weight="bold" font-size="14" letter-spacing="2">BLUE STAR uPVC PRESSURE PIPE PNS 65</text>
+        </g>
+    
+    </g>
+    <text x="250" y="465" text-anchor="middle" fill="#475569" font-family="sans-serif" font-weight="bold" font-size="13" letter-spacing="1">BLUE STAR uPVC SOLVENT JOINT PIPE</text>
+</svg>

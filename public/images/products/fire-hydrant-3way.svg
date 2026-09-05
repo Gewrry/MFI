@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#60A5FA" />
+            <stop offset="35%" stop-color="#3B82F6" />
+            <stop offset="70%" stop-color="#1D4ED8" />
+            <stop offset="100%" stop-color="#1E3A8A" />
+        </linearGradient>
+        <linearGradient id="upvcGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#60A5FA" />
+            <stop offset="30%" stop-color="#2563EB" />
+            <stop offset="70%" stop-color="#1D4ED8" />
+            <stop offset="100%" stop-color="#1E3A8A" />
+        </linearGradient>
+        <linearGradient id="steelGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#F1F5F9" />
+            <stop offset="50%" stop-color="#94A3B8" />
+            <stop offset="100%" stop-color="#475569" />
+        </linearGradient>
+        <linearGradient id="brassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#FDE047" />
+            <stop offset="50%" stop-color="#D97706" />
+            <stop offset="100%" stop-color="#78350F" />
+        </linearGradient>
+        <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.15"/>
+        </filter>
+    </defs>
+    <rect width="500" height="500" rx="20" fill="#F8FAFC"/>
+    <g filter="url(#dropShadow)">
+        
+        <rect x="180" y="110" width="140" height="290" fill="url(#blueGrad)" stroke="#1E3A8A" stroke-width="4"/>
+        <path d="M 170 110 Q 250 40 330 110 Z" fill="#DC2626" stroke="#991B1B" stroke-width="3"/>
+        <rect x="235" y="25" width="30" height="25" rx="3" fill="url(#brassGrad)"/>
+        <rect x="120" y="160" width="60" height="45" fill="url(#brassGrad)"/>
+        <rect x="320" y="160" width="60" height="45" fill="url(#brassGrad)"/>
+        <!-- Prominent Center 4.5" Pumper Nozzle -->
+        <circle cx="250" cy="260" r="38" fill="url(#brassGrad)" stroke="#78350F" stroke-width="4"/>
+        <text x="250" y="266" text-anchor="middle" fill="#78350F" font-family="sans-serif" font-weight="900" font-size="12">PUMPER</text>
+        <rect x="140" y="400" width="220" height="40" rx="8" fill="url(#blueGrad)"/>
+    
+    </g>
+    <text x="250" y="465" text-anchor="middle" fill="#475569" font-family="sans-serif" font-weight="bold" font-size="13" letter-spacing="1">FIRE HYDRANT (3-WAY W/ PUMPER NOZZLE)</text>
+</svg>

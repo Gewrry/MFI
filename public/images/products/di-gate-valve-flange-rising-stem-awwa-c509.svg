@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#60A5FA" />
+            <stop offset="35%" stop-color="#3B82F6" />
+            <stop offset="70%" stop-color="#1D4ED8" />
+            <stop offset="100%" stop-color="#1E3A8A" />
+        </linearGradient>
+        <linearGradient id="upvcGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#60A5FA" />
+            <stop offset="30%" stop-color="#2563EB" />
+            <stop offset="70%" stop-color="#1D4ED8" />
+            <stop offset="100%" stop-color="#1E3A8A" />
+        </linearGradient>
+        <linearGradient id="steelGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#F1F5F9" />
+            <stop offset="50%" stop-color="#94A3B8" />
+            <stop offset="100%" stop-color="#475569" />
+        </linearGradient>
+        <linearGradient id="brassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#FDE047" />
+            <stop offset="50%" stop-color="#D97706" />
+            <stop offset="100%" stop-color="#78350F" />
+        </linearGradient>
+        <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.15"/>
+        </filter>
+    </defs>
+    <rect width="500" height="500" rx="20" fill="#F8FAFC"/>
+    <g filter="url(#dropShadow)">
+        
+        <rect x="80" y="280" width="35" height="180" rx="6" fill="url(#blueGrad)" stroke="#1E3A8A" stroke-width="3"/>
+        <rect x="385" y="280" width="35" height="180" rx="6" fill="url(#blueGrad)" stroke="#1E3A8A" stroke-width="3"/>
+        <rect x="115" y="300" width="270" height="140" rx="14" fill="url(#blueGrad)" stroke="#1E3A8A" stroke-width="4"/>
+        <!-- OS&Y Yoke Y-Frame -->
+        <polygon points="180,300 320,300 280,140 220,140" fill="url(#blueGrad)" stroke="#1E3A8A" stroke-width="3"/>
+        <!-- Extended Stainless Steel Rising Stem -->
+        <rect x="244" y="25" width="12" height="240" fill="url(#steelGrad)" stroke="#475569" stroke-width="1"/>
+        <ellipse cx="250" cy="130" rx="65" ry="16" fill="none" stroke="#1E293B" stroke-width="10"/>
+    
+    </g>
+    <text x="250" y="465" text-anchor="middle" fill="#475569" font-family="sans-serif" font-weight="bold" font-size="13" letter-spacing="1">OS&amp;Y RISING STEM GATE VALVE</text>
+</svg>
